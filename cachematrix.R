@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+#Project 2 Assignment, R Programming, Build (R version 3.1.3, RStudio version 0.98.1091)
+##Purpose: a pair of functions that cache the inverse of a matrix
+###The function makeCacheMatrix creates a special "matrix" that can cache the inverse of the matrix
+###The function cacheSolve computes the inverse of the special matrix or retrieves the inverse from the cache
 
 makeCacheMatrix <- function(x = matrix()) {
 
